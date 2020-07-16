@@ -28,8 +28,8 @@ import matplotlib.pyplot as plt
 
 
 symbol = 'LINKUSDT'
-api_key = "iZHsmlsCReb9S6zVO05Vxy8ONQYK8J3CfshgNiRh3HlRShPULMj8EYBClftHBqi1"
-api_secret = "4IHk54oeSmmoXGQqWNgi24SJ1uHaTSEBfN48nOhYex8ATFFOj2WoWZQfDFD0pzu1"
+api_key = ""
+api_secret = ""
 
 client = Client(api_key, api_secret)
 tz = pytz.timezone('UTC')
