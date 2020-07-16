@@ -3,6 +3,7 @@ from pyti.exponential_moving_average import exponential_moving_average as ema
 from pyti.simple_moving_average import simple_moving_average as sma
 import pandas as pd
 import time
+from secrets import api_key , api_secret
 import dateparser
 import pytz
 import numpy as np
@@ -28,8 +29,7 @@ import matplotlib.pyplot as plt
 
 
 symbol = 'LINKUSDT'
-api_key = ""
-api_secret = ""
+
 
 client = Client(api_key, api_secret)
 tz = pytz.timezone('UTC')
